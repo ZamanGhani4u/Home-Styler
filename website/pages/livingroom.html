@@ -1,0 +1,785 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../assets/css/livingroom.css">
+
+    <title>Living Room</title>
+  </head>
+
+
+  <body>
+
+      <!-- Navbar -->
+<div class="nav">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img src="../assets/images/logo.png" height="80px" width="300px" alt="logo">
+        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a style="color: #DFB142;" class="nav-link" id="mytext" href="../index.html">Home</a>
+            </li>
+      
+      
+              <li class="dropdown " >
+                
+                <a class="dropdown-toggle text-light " style="position: relative;top: 8px; text-decoration: none; margin-top: 5x;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="mytext">
+                 Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="nav-link"><a class="dropdown-item "   href="./livingroom.html">Living Room</a></li>
+                  <li class="nav-link"><a class="dropdown-item "  href="./kitchen.html">Kitchen</a></li>
+                  <li class="nav-link"><a class="dropdown-item " href="./bathroom.html">Bathroom</a></li>
+                  <li class="nav-link"><a class="dropdown-item " href="./bedroom.html">Bedroom</a></li>
+                  
+                </ul>
+                <li class="nav-link"><a class="nav-item text-light" id="mytext" href="./about.html">About</a></li>
+                <li class="nav-link"><a class="nav-item text-light" id="mytext" href="./gallery.html">Gallery</a></li>
+                <li class="nav-link"><a class="nav-item text-light" id="mytext" href="./contact.html">Contact</a></li>
+                <li class="nav-link"><a class="nav-item text-light" id="mytext" href="./Login.html">Login</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+   <!-- Navbar -->
+
+
+    <div class="boxkit">
+        <h1>LIVING ROOM</h1>
+    </div>
+
+
+    <div class="navbar1 mt-3">
+        
+        <button id="btn1" class="btnskit" style="margin-left: 360px;" >ALL ITEMS</button>
+        <button id="btn2" class="btnskit" >SOFAS AND COUCHES</button>
+        <button id="btn3" class="btnskit" >TABLES</button>
+        <button id="btn4"  class="btnskit">VASES AND PLANT POTS</button>
+        <button id="btn5"  class="btnskit">WALL ART AND MIRRORS</button>
+     
+    
+
+        <!-- cards -->
+ 
+        <!-- 1 row -->
+      
+        <section id="Couches">
+            <div class="flex-column d-flex flex-md-row justify-content-md-center align-items-center" >
+        <div class="container" id="FillerationBody">
+            <div class="row cardsss">
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/sofa 1.jfif"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center"> Facing Sofa</h5> 
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal1">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 60px;">Wide Velvet Right Hand Facing Sofa</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/sofa 1.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>
+                                The Wide Velvet Right Hand Facing Sofa combines luxurious velvet upholstery with a sleek, modern design. Its plush cushions provide exceptional comfort, while the right-hand facing configuration makes it perfect for lounging or entertaining. With a stylish silhouette and rich color options, this sofa adds an elegant touch to any living space.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">100$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/sofa 2.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center" >Wide Corner </h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal2">
+                      DESCRIPTION  
+                    </button>
+                    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 85px;">Wide Linen Corner Sectional</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/sofa 2.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>
+                                The Wide Linen Corner Sectional offers a cozy and inviting design, perfect for any living space. Upholstered in soft, breathable linen, it features generous seating and a spacious layout, ideal for relaxing or hosting gatherings. Its clean lines and versatile style make it a chic addition to both contemporary and traditional interiors.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">150$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/sofa 3.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sectional Sofa</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal3">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 40px;">Modern L-Shape Modular Sectional Sofa</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/sofa 3.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facilis ipsum fuga nesciunt praesentium soluta expedita porro dolore impedit. Quos veritatis nemo impedit delectus nulla eius voluptas tempora autem facere.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">140$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/sofa 4.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                <h5 class="card-title text-center">Comfortable Section</h5>
+                <br>
+                <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal4">
+                    DESCRIPTION
+                </button>
+                <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 40px;">Homiyad Couch Comfortable Sectional</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="../assets/images/sofa 4.jfif" alt="" style="width: 450px; height: 200px;">
+                            <br>
+                            <br>                      
+                                The Modern L-Shape Modular Sectional Sofa boasts a sleek, contemporary design with customizable configurations to fit your space. Upholstered in durable fabric, it features plush cushions for optimal comfort and support. Its modular design allows for easy rearrangement, making it perfect for entertaining or lounging in style.
+                            </div>
+                            <div class="modal-footer">
+                                <h3 id="price">180$</h3>
+                                <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <!-- 2 row -->
+
+        <section id="Tables">
+            <div class="flex-column d-flex flex-md-row justify-content-md-center align-items-center" >
+        <div class="container" id="FillerationBody">
+            <div class="row cardsss">
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/table 1.jfif"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center"> Coffee Table</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal5">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 60px;">Modern High Gloss Coffee Table</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/table 1.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>                              
+                                    The Modern High Gloss Coffee Table exudes sleek sophistication with its shiny, reflective surface and minimalist design. Crafted from durable materials, it features clean lines and a contemporary silhouette that elevates any living room decor. Perfect for displaying decor or serving drinks, this table combines style and functionality effortlessly.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">160$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/table 2.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Panel  Table</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal6">
+                        DESCRIPTIONs
+                    </button>
+                    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 70px;">Simple Rock Panel Coffee Table</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/table 2.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>                               
+                                    The Simple Rock Panel Coffee Table features a unique, textured design that adds an earthy elegance to your living space. With a sturdy build and a minimalist silhouette, it seamlessly blends style and functionality. Perfect for holding drinks or books, this table is a chic centerpiece for any room.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">200$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/table 3.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Wooden Coffee Table</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal7">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 80px;">Gloss Wooden Coffee Table</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/table 3.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>
+                                The Gloss Wooden Coffee Table combines classic elegance with modern flair. Crafted from high-quality wood with a sleek, glossy finish, it adds a touch of sophistication to any living area. Its sturdy design offers ample surface space for drinks, books, and decor, making it both stylish and practical.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">210$</h3>
+                                    <a href=""><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/table 4.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                <h5 class="card-title text-center">Top Coffee Table</h5>
+                <br>
+                <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal8">
+                    DESCRIPTION
+                </button>
+                <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 60px;">Oval Sintered Stone Top Coffee Table</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="../assets/images/table 4.jfif" alt="" style="width: 450px; height: 200px;">
+                            <br>
+                            <br>
+                            The Oval Sintered Stone Top Coffee Table features a stunning, durable surface that combines elegance with functionality. Its smooth, oval shape and sleek lines create a modern aesthetic, while the sintered stone top is resistant to scratches and heat. Perfect for adding a touch of sophistication to your living space, this table is both stylish and practical.
+                            </div>
+                            <div class="modal-footer">
+                                <h3 id="price">150$</h3>
+                                <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+        <!-- 3 row -->
+
+        <section id="Vases">
+            <div class="flex-column d-flex flex-md-row justify-content-md-center align-items-center" >
+        <div class="container" id="FillerationBody">
+            <div class="row cardsss">
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/plant 1.jfif"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center"> Gold Plant Stand</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal9">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 60px;">Modern Flower Gold Plant Stand</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/plant 1.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>                             
+                                    The Modern Flower Gold Plant Stand showcases a chic design with a sleek gold finish, perfect for elevating your favorite plants. Its minimalist silhouette complements any decor style, while the sturdy construction ensures durability. Ideal for adding a touch of elegance to your home or garden, this plant stand beautifully highlights your greenery.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">190$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/plant 2.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center" >Serenity Vase</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal10">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 80px;">Scandinavian Serenity Vase</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/plant 2.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>
+                                The Scandinavian Serenity Vase embodies minimalist elegance with its clean lines and soft, neutral tones. Crafted from high-quality materials, it adds a touch of modern sophistication to any space. Perfect for showcasing fresh flowers or standing alone as a decorative piece, this vase enhances the tranquility of your home decor.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">140$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/plant 3.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center"> Pot Zephyr Design</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal11">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 40px;">Charcoal Black Planter Pot Zephyr Design</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/plant 3.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>
+                                The Charcoal Black Planter Pot in Zephyr Design features a sleek, contemporary aesthetic with a matte finish that adds a touch of sophistication to any indoor or outdoor space. Its durable construction ensures longevity, while the minimalist shape allows it to complement a variety of plant styles. Perfect for showcasing your favorite greenery, this planter pot enhances your decor with modern elegance.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">110$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/plant 4.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                <h5 class="card-title text-center">Artificial Tree Pot</h5>
+                <br>
+                <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal12">
+                    DESCRIPTION
+                </button>
+                <div class="modal fade" id="modal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 80px;">Artificial Tree in Geometric Pot</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="../assets/images/plant 4.jfif" alt="" style="width: 450px; height: 200px;">
+                            <br>
+                            <br>
+                            The Artificial Tree in Geometric Pot offers a stylish and low-maintenance way to bring greenery into your space. Featuring a lifelike design, the tree adds a touch of nature without the upkeep. Housed in a contemporary geometric pot, it enhances any decor with its modern aesthetic, making it a perfect accent for home or office environments.
+                            </div>
+                            <div class="modal-footer">
+                                <h3 id="price">100$</h3>
+                                <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+        <!-- 4 row -->
+<section id="Mirrors">
+    <div class="flex-column d-flex flex-md-row justify-content-md-center align-items-center" >
+        <div class="container" id="FillerationBody">
+            <div class="row cardsss">
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/mirror 1.jfif"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Decorative Mirror Set</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal13">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 80px;">Gold Wall Decorative Mirror Set</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/mirror 1.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>                                
+                                    The Gold Wall Decorative Mirror Set adds a touch of elegance and sophistication to any room. Featuring multiple mirrors in varying shapes, this set creates a striking focal point on your wall. The chic gold framing enhances the overall aesthetic, making it perfect for reflecting light and creating a sense of space in your home.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">200$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/mirror 2.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Wall Mirrors  Room</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal14">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 40px;">Wall Mirrors Decorative for Living Room</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/mirror 2.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>
+                                The Wall Mirrors Decorative for Living Room are designed to enhance your space with style and sophistication. Featuring an array of shapes and sizes, these mirrors not only reflect light but also create a visually stunning focal point. Ideal for adding depth and dimension, they complement a variety of decor styles, making your living room feel more inviting and expansive.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">190$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/mirror 3.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Decorative Set</h5>
+
+                    <br>
+                    <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal15">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="modal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 40px;">Asymmetrical Wall Mirror Decorative Set</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/mirror 3.jfif" alt="" style="width: 450px; height: 200px;">
+                                <br>
+                                <br>
+                                The Asymmetrical Wall Mirror Decorative Set features a unique design that adds a modern flair to any room. With various shapes and sizes, these mirrors create an eye-catching arrangement that enhances depth and visual interest. Perfect for reflecting light and enhancing your decor, this set makes a bold statement in any space.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">210$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card mt-5" style="width: 16rem;">
+                <img src="../assets/images/mirror 4.jfif" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                <h5 class="card-title text-center">Full Length Mirror</h5>
+                <br>
+                <button type="button" class="btn btn-primary description" data-bs-toggle="modal" data-bs-target="#modal16">
+                    DESCRIPTION
+                </button>
+                <div class="modal fade" id="modal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 80px;">Gold Arched Full Length Mirror</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="../assets/images/mirror 4.jfif" alt="" style="width: 450px; height: 200px;">
+                            <br>
+                            <br>
+                            The Gold Arched Full Length Mirror exudes elegance and sophistication with its striking arched design and luxurious gold frame. Perfect for adding depth and light to any room, this mirror enhances your decor while providing a stylish way to check your outfit from head to toe. Its timeless design makes it a versatile accent for both modern and traditional spaces.
+                            </div>
+                            <div class="modal-footer">
+                                <h3 id="price">120$</h3>
+                                <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+<!-- footer  -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <!-- Important Links -->
+  
+            <div class="col-md-3 col-sm-12">
+         <img src="../assets/images/logo.png" height="60px" width="300px" alt="" >
+               <p>An Interior Design Company
+                having more than10 embers team with 400+
+                projects completed.</p>
+            </div>
+  
+            
+            <div class="col-md-3 col-sm-12">
+                <h4>NAVIGATION</h4>
+                <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-arrow-right fi2"></i><a href="../index.html">  Home</a></li>
+                    <li><i class="fa-solid fa-arrow-right fi2"></i><a href="./gallery.html">Gallery</a></li>
+                    <li><i class="fa-solid fa-arrow-right fi2"></i><a href="./about.html">  About</a></li>
+                    <li><i class="fa-solid fa-arrow-right fi2"></i><a href="./contact.html"> Contact</a></li>
+                    
+                    
+                </ul>
+            </div>
+  
+            <!-- Variety -->
+            <div class="col-md-3 col-sm-12">
+                <h4>GET IN TOUCH</h4>
+                <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-location-dot fi2"></i><a href="#"> Address 123456789 </a></li>
+                    <li><i class="fa-solid fa-clock fi2"></i><a href="#"> 10:30 AM to 07:30 PM</a></li>
+                    <li><i class="fa-solid fa-calendar-days fi2"></i><a href="#"> Monday to Friday</a></li>
+                </ul>
+            </div>
+  
+            <!-- Get in Touch -->
+            <div class="col-md-3 col-sm-12">
+                <h4>LINKS</h4>
+                <div class="footer-bottom-right">
+                  <ul>
+                    <li><i class="fa-brands fa-facebook fi"></i></li>
+                    <li><i class="fa-brands fa-instagram fi"></i></li>
+                    <li><i class="fa-brands fa-x-twitter fi"></i></li>
+                  </ul>
+  
+                 
+      
+        
+        
+        
+              </div>
+            </div>
+        </div>
+    </div>
+  
+  
+  
+  <div class="footer-bottom">
+    <div class="footer-bottom-sub">
+  
+        <div class="footer-bottom-left">
+            <h5 class="" style="color: white;">© 2024 HOME STYLER</h5>
+        </div>
+  
+      
+    </div>
+  
+  
+  </div>
+  </footer>
+
+
+
+
+    
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+     <!-- Bootstrap JavaScript Libraries -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+     crossorigin="anonymous"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+     crossorigin="anonymous"></script>
+
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function()
+ {
+     $("#btn1").click(function()
+     {
+         $("#Couches").show()
+         $("#Tables").show()
+         $("#Vases").show()
+         $("#Mirrors").show()
+     })
+     $("#btn2").click(function()
+{
+$("#AllItems").hide()
+$("#Couches").show()
+$("#Tables").hide()
+$("#Vases").hide()
+$("#Mirrors").hide()
+})
+$("#btn3").click(function()
+{
+$("#AllItems").hide()
+$("#Couches").hide()
+$("#Tables").show()
+$("#Vases").hide()
+$("#Mirrors").hide()
+})
+$("#btn4").click(function()
+{
+    $("#AllItems").hide()
+$("#Couches").hide()
+$("#Tables").hide()
+$("#Vases").show()
+$("#Mirrors").hide()
+})
+$("#btn5").click(function()
+{
+    $("#AllItems").hide()
+$("#Couches").hide()
+$("#Tables").hide()
+$("#Vases").hide()
+$("#Mirrors").show()
+})
+
+
+ });
+</script>
+ 
+  </body>
+</html>
+

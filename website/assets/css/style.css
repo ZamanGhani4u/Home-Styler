@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+    
+}
+
+.nav {
+  background-color: #285953;
+}
+
+.navbar {
+  width: 90vw;
+  margin: 0px auto;
+  display: flex;
+  height: 12vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item  {
+  display: flex;
+  list-style: none;
+ 
+}
+
+.nav-item li a {
+  text-decoration: none;
+  padding: 0px 20px;
+  color:black;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.nav-item li a :hover {
+color: #DFB142;
+} 
+#mytext{
+color: white;
+font-weight: 600;
+text-decoration: none;
+}
+#mytext:hover{
+color: #DFB142;
+}
+.start-now {
+    background-color: #141B4A;
+    color: white;
+    padding: 12px 60px;
+    border: 2px solid #141B4A;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.bars{
+    font-size: 20px;
+    display: none;
+}
+
+.mbl-item{
+    background-color: #285953;
+    ; 
+    height: 30vh;
+    display: none;
+}
+
+.mbl-item li a{
+    color: #050D3F;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+
+/* ABHI WALA */
+.Our-features .Fp{
+  color: #DFB142;
+  font-size: 20px;
+  font-family: s;
+}
+.Our-features{
+  background-color: #285953;
+}
+.Our-features .sec1 h1{
+  font-family: Jacques Francois ;
+}
+.Our-features .sec1 p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.Our-features  .sec1 a{
+  padding: 10px;
+  background: #DFB142;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+.herobanner{
+  background-color: #285953;
+  padding: 20px;
+}
+.herobanner .row .sec1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.herobanner .row .sec1 .contend{
+  width: 500px;
+}
+.herobanner .row .sec1 .contend .p1{
+  font-size: 25px;
+  color: #c49b3b;
+}
+
+.herobanner .row .sec1 .contend hr{
+  color: #c49b3b;
+}
+.herobanner .row .sec1 .contend h1{
+  font-size: 50px;
+  font-family: Jacques Francois ;
+  color:#fff;
+
+}
+.herobanner .row .sec1 .contend h1 span {
+  color: #DFB142;
+}
+.herobanner .row .sec1 .contend .Desc{
+  font-size: 15px;
+  color: #fff;
+}
+.herobanner .row .sec1 .contend  a{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  background-color: #DFB142;
+  padding: 10px;
+  border-radius: 5px;
+}
+.herobanner .row .sec2 .Himg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+.Story .row{
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+.Story .row .main1  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.Story .row .main1 img{
+  height: 500px;
+  width: 370px;
+  position: absolute;
+  top: 60px;
+  left: 280px;
+  z-index: 9999;
+}
+.Story .row .main1 .looks{
+  height: 500px;
+  width: 370px;
+  background-color: #e4b547;
+}
+.abc{
+
+font-size: 50px;
+
+
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #DFB142;
+
+
+}
+
+.heading{
+  
+  font-family: "Jacques Francois Shadow", serif;
+}
+
+.welcome
+{
+
+  color: #DFB142;
+font-size: 25px;
+font-family: "Inter", sans-serif;
+}
+.years{
+  font-size:15px;
+  font-family:"Inter", sans-serif;
+  color: black;
+  font-weight:bold;
+
+}
+
+
+
+.Creation .row .bgimg{
+  background-image: url(../images/modern-apartment-with-comfortable-sofa-decor-generated-by-ai.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 10px;
+  height: 500px;
+}
+
+
+
+
+
+/* Interior */
+
+
+
+#box1
+{
+    background-color: transparent;
+    height: 280px;
+    margin-top: 20px;
+    border: 2px solid #DFB142;
+    
+
+}
+.prtext{
+  margin-left: 15px;
+}
+.primg{
+
+  width: 250px;
+  height: 260px;
+  margin-top:10px
+}
+
+
+#box2
+{
+    background-color: transparent;
+    height: 400px;
+margin-top: 180px;
+width: 390px;
+margin-left: 30px;
+}
+
+#box4
+{
+    
+    background-color: transparent;
+    height: 280px;
+    margin-top: 20px;
+    border: 2px solid #DFB142;
+
+}
+#lamp-img{
+    margin-top: 20px;
+
+}
+#heading-cards{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+#para-cards{
+    font-size: 15px;
+}
+#head-cards{
+    color: #DFB142;
+    font-size: 30px;
+}
+
+#headingin-card{
+    margin-top: 15px;
+    
+}
+#headingin-card1{
+
+}
+.btn-read{
+background-color: #285953;
+color: white;
+border: #285953;
+border-radius: 10px;
+text-align: center;
+margin-top: 8px;
+padding-right: 24px;
+padding-left: 24px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+.jacques-francois-shadow-regular {
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.headt1{
+  color: #DFB142;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+
+}
+
+.mainheadt1{
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Jacques Francois Shadow", serif;
+}
+.parat1{
+  
+  margin-top: 25px;
+  text-align: justify;
+}
+.imagest1{
+  width: 100%;
+  display: flex;
+  margin-right: 25px;     
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+
+/* Team members */
+
+
+ .parat2{
+
+  font-weight: bold;
+  text-align: center;
+
+}
+.headt2{
+  color: #DFB142;
+  text-align:center;
+  margin-top: 15px;
+  font-size: 60px;
+}
+.expert{
+  text-align:center;
+}
+.hr1{
+  background-color: #DFB142;
+  width: 150px;
+}
+.cards{
+  display: flex;
+  margin-left: 100px;
+}
+.card1{
+  border: 2px solid #DFB142;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin: 17px;
+  border-radius: 10px;
+  
+
+}
+.card1 img{
+  margin: 40px;
+  height: 200px;
+  width: 200px;
+}
+.card1 h3{
+  color: #285953;
+  font-size: 23px;
+  text-align: center;
+}
+.card1 h6{
+  color: #DFB142;
+  font-size: 15px;
+  text-align: center;
+}
+.circles{
+  display: flex;
+  margin-bottom: 30PX;
+  padding-left: 80px;
+}
+.circle{
+  background-color: #DFB142;
+  height: 30px;
+  width: 30px;
+  border: #DFB142;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin: 2px;
+
+}
+.btn-read1{
+background-color: #285953;
+color: white;
+border: #285953;
+border-radius: 10px;
+text-align: center;
+margin-top: 8px;
+padding-right: 24px;
+padding-left:24px;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-left: 520PX;
+} 
+
+
+/* footer */
+
+
+.footer-top{
+  margin: 80px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-top-left{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-top-right{
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-top-right-sub{
+  width: 45vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 10px;
+
+}
+
+.footer-top-right-sub div{
+ font-weight: 700;
+}
+
+.footer-bottom{
+  /* background-color:#285953; */
+ 
+  
+}
+
+.footer-bottom-sub{
+  display: flex;
+  justify-content: space-between;
+  /* height: 10vh; */
+  /* width: 90vw; */
+  align-items: center;
+  margin: 0px auto;
+}
+
+.footer-bottom-right i{
+  font-size: 25px;
+  cursor: pointer;
+  margin: 2px 8px;
+}
+
+
+
+
+footer {
+  background-color: #285953;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  color: #285953;
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  list-style: none;
+  
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.footer-section ul li img {
+  width: 24px;
+  margin: 0 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .footer-section {
+      margin: 20px 0;
+  }
+}
+
+footer {
+  background-color: #285953;
+  padding: 40px 0;
+  color:white;
+}
+
+footer h4 {
+  color: #DFB142;
+  font-weight: bold;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration:none;
+  color: #DFB142;
+}
+
+footer address {
+  font-style: normal;
+}
+
+@media (max-width: 767px) {
+  footer .col-md-4 {
+      text-align: center;
+      margin-bottom: 20px    
+  }
+} 
+
+.fi{
+   padding-bottom: 5px;
+}
+.fi2{
+  padding-bottom: 10px;
+}
+
+
+
+

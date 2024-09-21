@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/kitchen.css">
+
+    <title>Kitchen</title>
+  </head>
+
+
+  <body>
+
+      <!-- Navbar -->
+<div class="nav">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img src="../assets/images/logo.png" height="80px" width="300px" alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a style="color: #DFB142;" class="nav-link" id="mytext" href="../index.html">Home</a>
+            </li>
+      
+      
+              <li class="dropdown " >
+                
+                <a class="dropdown-toggle text-light" style="position: relative;top: 8px; text-decoration: none; margin-top: 5x;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="mytext">
+                 Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="nav-link"><a class="dropdown-item "   href="./livingroom.html">Living Room</a></li>
+                  <li class="nav-link"><a class="dropdown-item "  href="./kitchen.html">Kitchen</a></li>
+                  <li class="nav-link"><a class="dropdown-item " href="./bathroom.html">Bathroom</a></li>
+                  <li class="nav-link"><a class="dropdown-item " href="./bedroom.html">Bedroom</a></li>
+                  
+                </ul>
+                <li class="nav-link"><a class="nav-item text-light" id="mytext" href="../pages/about.html">About</a></li>
+                <li class="nav-link"><a class="nav-item text-light" id="mytext" href="../pages/gallery.html">Gallery</a></li>
+                <li class="nav-link"><a class="nav-item text-light" id="mytext" href="../pages/contact.html">Contact</a></li>
+                <li class="nav-link"><a class="nav-item text-light" id="mytext" href="../pages/Login.html">Login</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+   <!-- Navbar -->
+
+  
+    <div class="boxkit">
+        <h1>KITCHEN</h1>
+    </div>
+
+
+    <div class="navbar1 mt-3 "  >
+        
+        <button id="btn1" class="btnskit" style="margin-left: 360px;" >ALL ITEMS</button>
+        <button id="btn2" class="btnskit" >CABINETS AND PANTRIES</button>
+        <button id="btn3" class="btnskit" >COUNTER-TOPS</button>
+        <button id="btn4"  class="btnskit">SINKS AND FAUCETS</button>
+        <button id="btn5"  class="btnskit">KITCHEN ISLAND AND CARTS</button>
+
+     
+    </div>
+    
+    <br><br>
+        <!-- cards -->
+ 
+        <!-- 1 row -->
+<section id="Cabinets">
+    <div class="flex-column d-flex flex-md-row justify-content-md-center align-items-center" >
+        <div class="container" id="FillerationBody">
+            <div class="row">
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/k1.avif"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Brown Shiny Cabinets</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel " style="margin-left: 150px;">Brown Shiny Cabinets</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/k1.avif" class="modalpic" alt=""> <br><br>
+                                Featuring a stylish mocha color, these cabinets have a high-gloss finish that radiates sophistication. Their contemporary design and reflective surface make them a perfect match for sleek countertops and minimalist decor.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">120$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping "  ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/kc2.webp"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Shaker Grey Cabinets</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn"  data-bs-toggle="modal" data-bs-target="#Modal3">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel " style="margin-left: 150px;">Shaker Grey Cabintes</h1>
+                                    <button type="button" class="btn-close cardbtn" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/kc2.webp" class="modalpic" alt=""> <br><br>
+                                These Shaker grey cabinets combine classic design with a modern twist. The clean lines and paneled doors offer a timeless appeal, while the soft grey hue adds a contemporary touch, making them perfect for any kitchen 
+                            </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">105$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/kc1.webp" class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center" >White Cabinets</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal2">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" style="margin-left: 150px;" id="exampleModalLabel">White Cabinets</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/kc1.webp" class="modalpic" alt=""> <br>
+                                These white cabinets offer a timeless appeal with their clean lines and smooth finish. The bright, reflective surface enhances natural light, creating a fresh and airy atmosphere perfect for any kitchen or bathroom.
+                            </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">180$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+       
+            <div class="card mt-5" style="width: 16rem; height: 400PX;">
+                <img src="../assets/images/kc3.jpg" class="card-img-top imgcard"  alt="...">
+                <div class="card-body">
+                <h5 class="card-title text-center">Modern Cabinets</h5>
+                <br>
+                <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal4">
+                    DESCRIPTION
+                </button>
+                <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Modern Cabinets</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="../assets/images/kc3.jpg" class="modalpic" alt=""> <br>
+                            These modern cabinets feature a streamlined design with clean lines and a matte finish. The absence of ornate details creates a sophisticated, uncluttered look, making them ideal for contemporary spaces.
+                        </div>
+                            <div class="modal-footer">
+                                <h3 id="price">250$</h3>
+                                <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        </div>
+</div>
+</div>
+</section>
+
+        <!-- 2 row -->
+<section id="Countertops">
+    <div class="flex-column d-flex flex-md-row justify-content-md-center align-items-center" >
+        <div class="container" id="FillerationBody">
+            <div class="row">
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/bk6.avif"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Reflective White Counter</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal5">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">White N Brown Counter</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/bk6.avif" class="modalpic" alt=""> 
+                                <br>
+                                <br>
+                                This reflective white countertop features a high-gloss finish that captures and reflects light beautifully. Its pristine surface creates an airy, open feel in any kitchen or bathroom, making it a perfect complement to both modern and classic designs.
+                            </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">110$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/bk2.jpg" class="card-img-top imgcard"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center" >Stylish Blue Counter</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal6">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Stylish Blue Counter</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/bk2.jpg" class="modalpic" alt=""> <br>
+                                This stylish blue countertop evokes the calming hues of the ocean. With its rich, deep blue finish and subtle marbling, it adds a dramatic focal point to kitchens or bathrooms, bringing a sense of serenity and sophistication.
+                            </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">90$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/bk3.jpg"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Classical Green Counter</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal7">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="Modal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Classical Green Counter</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/bk3.jpg" class="modalpic" alt=""> <br><br>
+                                This elegant olive green countertop combines warmth and style, featuring a smooth, matte finish. Its understated color complements a variety of cabinetry, adding a classic charm to any space.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">75$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/bk4.jpg" class="card-img-top imgcard"   alt="...">
+                <div class="card-body">
+                <h5 class="card-title text-center">Trendy Counter</h5>
+                <br>
+                <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal8">
+                    DESCRIPTION
+                </button>
+
+                <div class="modal fade" id="Modal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Trendy Counter</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="../assets/images/bk4.jpg" class="modalpic" alt="" > <br><br>
+                            This trendy countertop features a sleek concrete surface that brings an industrial edge to any kitchen. Its raw, textured look is both modern and chic, making it a popular choice for contemporary designs.
+                        </div>
+                            <div class="modal-footer">
+                                <h3 id="price">99$</h3>
+                                <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>  
+                
+</div>         
+</div>       
+</div>
+</div>
+</div>
+</section>
+        <!-- 3 row -->
+
+<section id="Sinks">
+    <div class="flex-column d-flex flex-md-row justify-content-md-center align-items-center" >
+        <div class="container" id="FillerationBody">
+            <div class="row">
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/ct2.avif"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Simple Sink</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal10">
+                        DESCRIPTION                    </button>
+                    <div class="modal fade" id="Modal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Simple Sink</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/ct2.avif" class="modalpic" alt=""  style="height: 310px; width: 460px;"> <br><br>
+                                This simple undermount sink features a sleek, minimalist design that seamlessly integrates with your countertop. Its clean lines and smooth finish make it easy to maintain while providing a timeless look for any kitchen.
+                            </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">35$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/ct3.avif" class="card-img-top imgcard"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center" >Matte Black Sink</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal12">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="Modal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Matte Black Sink</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/ct3.avif" class="modalpic" alt=""  style="height: 310px; width: 460px;"> <br><br>
+                                This matte black undermount sink seamlessly integrates with your countertop for a clean, polished look. Its minimalist design and durable material make it a practical choice that does not compromise on style.
+                            </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">65$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="card mt-5" style="width: 16rem; height: 400px;">
+                <img src="../assets/images/ct5.avif"  class="card-img-top imgcard" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Fashionable Sink</h5>
+                    <br>
+                    <button type="button" class="btn btn-primary cardbtn"  data-bs-toggle="modal" data-bs-target="#Modal13">
+                        DESCRIPTION
+                    </button>
+                    <div class="modal fade" id="Modal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Fashionable Sink</h1>
+                                    <button type="button" class="btn-close cardbtn" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="../assets/images/ct5.avif" class="modalpic" alt=""  style="height: 310px; width: 460px;"> <br><br>
+                               This sink embodies the pinnacle of fashion, characterized by meticulously crafted garments tailored to perfection. The attention to detail, luxurious fabrics, and unique designs make each piece a work of art, showcasing the latest trends in an exclusive way.
+                                </div>
+                                <div class="modal-footer">
+                                    <h3 id="price">40$</h3>
+                                    <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="card mt-5" style="width: 16rem; height: 400PX;">
+                <img src="../assets/images/ct6.webp" class="card-img-top imgcard"  alt="...">
+                <div class="card-body">
+                <h5 class="card-title text-center">Steelex Sink</h5>
+                <br>
+                <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal14">
+                    DESCRIPTION
+                </button>
+                <div class="modal fade" id="Modal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Steelex Sink</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="../assets/images/ct6.webp" class="modalpic" alt="" style="height: 310px; width: 460px;"> <br><br>
+                            This steely sink features a polished stainless steel surface that combines durability with a modern aesthetic. Its sleek design makes it a perfect addition to contemporary kitchens, offering a clean and industrial look.
+                            </div>
+                            <div class="modal-footer">
+                                <h3 id="price">30$</h3>
+                                <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        </div>
+</div>
+</div>
+</section>
+
+<!--4 row-->
+<section id="Carts">
+    <div class="flex-column d-flex flex-md-row justify-content-md-center align-items-center" >
+<div class="container" id="FillerationBody">
+    <div class="row">
+    <div class="card mt-5" style="width: 16rem; height: 400px;">
+        <img src="../assets/images/ktci5.avif"  class="card-img-top imgcard" alt="...">
+        <div class="card-body">
+            <h5 class="card-title text-center">Sleek Modern Cart</h5>
+            <br>
+            <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal15">
+                DESCRIPTION
+            </button>
+            <div class="modal fade" id="Modal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Sleek Modern Cart</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <img src="../assets/images/ktci5.avif" class="modalpic" alt="" style="width: 440px; height: 400px;"> <br><br>
+                        This contemporary kitchen cart boasts a minimalist design with a stainless steel top and clean lines. Its compact size and built-in wheels make it easy to move, offering extra workspace and storage wherever you need it.
+                    </div>
+                        <div class="modal-footer">
+                            <h3 id="price">20$</h3>
+                            <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <div class="card mt-5" style="width: 16rem; height: 400px;">
+        <img src="../assets/images/ktci2.avif" class="card-img-top imgcard" alt="...">
+        <div class="card-body">
+            <h5 class="card-title text-center" >Multi-Function Cart</h5>
+            <br>
+            <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal16">
+                DESCRIPTION
+            </button>
+            <div class="modal fade" id="Modal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Multi-Function Cart</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <img src="../assets/images/ktci2.avif" class="modalpic" alt="" style="width: 440px; height: 400px;"> <br><br>
+                        This multifunctional kitchen cart features a combination of drawers, shelves, and a wine rack. Its stylish design and variety of storage options make it ideal for organizing kitchen essentials while adding a pop of color to your space.
+                        </div>
+                        <div class="modal-footer">
+                            <h3 id="price">07$</h3>
+                            <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="card mt-5" style="width: 16rem; height: 400px;">
+        <img src="../assets/images/ktci3.avif"  class="card-img-top imgcard" alt="...">
+        <div class="card-body">
+            <h5 class="card-title text-center">Wooden Kitchen Cart</h5>
+            <br>
+            <button type="button" class="btn btn-primary cardbtn"  data-bs-toggle="modal" data-bs-target="#Modal17">
+                DESCRIPTION
+            </button>
+            <div class="modal fade" id="Modal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" >Wooden Kitchen Cart</h1>
+                            <button type="button" class="btn-close cardbtn" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <img src="../assets/images/ktci3.avif" class="modalpic" alt="" style="width: 440px; height: 400px;"> <br><br>
+                        This charming kitchen cart features a sturdy wooden frame with a warm, natural finish. With multiple shelves and a spacious countertop, it provides ample storage and preparation space, perfect for adding a cozy touch to any kitchen.
+                        </div>
+                        <div class="modal-footer">
+                            <h3 id="price">08$</h3>
+                            <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <div class="card mt-5" style="width: 16rem; height: 400PX;">
+        <img src="../assets/images/ktci4.avif" class="card-img-top imgcard"  alt="...">
+        <div class="card-body">
+        <h5 class="card-title text-center">Elegant Black Cart</h5>
+        <br>
+        <button type="button" class="btn btn-primary cardbtn" data-bs-toggle="modal" data-bs-target="#Modal18">
+            DESCRIPTION
+        </button>
+        <div class="modal fade" id="Modal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel" style="margin-left: 150px;">Elegant Black Cart</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <img src="../assets/images/ktci4.avif" class="modalpic" style="width: 440px; height: 400px;" alt=""> <br><br>
+                    Crafted from rich black wood, this elegant cart combines timeless style with functionality. With its polished surface and refined details, it’s perfect for serving cocktails or displaying decor in a chic setting.
+                    
+                    </div>
+                    <div class="modal-footer">
+                        <h3 id="price">10$</h3>
+                        <a href="./order.html"><i class="fa-solid fa-cart-shopping" style="font-size:25px;" ></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>   
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<!-- footer  -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <!-- Important Links -->
+  
+            <div class="col-md-3 col-sm-12">
+         <img src="../assets/images/logo.png" height="60px" width="300px" alt="" >
+               <p>An Interior Design Company
+                having more than10 embers team with 400+
+                projects completed.</p>
+            </div>
+  
+            
+            <div class="col-md-3 col-sm-12">
+                <h4>NAVIGATION</h4>
+                <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-arrow-right fi2"></i><a href="../index.html">Home</a></li>
+                    <li><i class="fa-solid fa-arrow-right fi2"></i><a href="./gallery.html">Gallery</a></li>
+                    <li><i class="fa-solid fa-arrow-right fi2"></i><a href="./about.html">About</a></li>
+                    <li><i class="fa-solid fa-arrow-right fi2"></i><a href="./contact.html"> Contact</a></li>
+                    
+                    
+                </ul>
+            </div>
+  
+            <!-- Variety -->
+            <div class="col-md-3 col-sm-12">
+                <h4>GET IN TOUCH</h4>
+                <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-location-dot fi2"></i><a href="#"> Address 123456789 </a></li>
+                    <li><i class="fa-solid fa-clock fi2"></i><a href="#"> 10:30 AM to 07:30 PM</a></li>
+                    <li><i class="fa-solid fa-calendar-days fi2"></i><a href="#"> Monday to Friday</a></li>
+                </ul>
+            </div>
+  
+            <!-- Get in Touch -->
+            <div class="col-md-3 col-sm-12">
+                <h4>LINKS</h4>
+                <div class="footer-bottom-right">
+                  <ul>
+                    <li><i class="fa-brands fa-facebook fi"></i></li>
+                    <li><i class="fa-brands fa-instagram fi"></i></li>
+                    <li><i class="fa-brands fa-x-twitter fi"></i></li>
+                  </ul>
+  
+                 
+      
+        
+        
+        
+              </div>
+            </div>
+        </div>
+    </div>
+  
+  
+  
+  <div class="footer-bottom">
+    <div class="footer-bottom-sub">
+  
+        <div class="footer-bottom-left">
+            <h5 class="" style="color: white;">© 2024 HOME STYLER</h5>
+        </div>
+  
+      
+    </div>
+  
+  
+  </div>
+  </footer>
+  
+
+
+    
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+     <!-- Bootstrap JavaScript Libraries -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+     crossorigin="anonymous"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+     crossorigin="anonymous"></script>
+
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function()
+ {
+     $("#btn1").click(function()
+     {
+         $("#Cabinets").show()
+         $("#Countertops").show()
+         $("#Sinks").show()
+         $("#Carts").show()
+         $("#Chandelier").show()
+     })
+     $("#btn2").click(function()
+{
+$("#AllItems").hide()
+$("#Cabinets").show()
+$("#Countertops").hide()
+$("#Sinks").hide()
+$("#Carts").hide()
+})
+$("#btn3").click(function()
+{
+$("#AllItems").hide()
+$("#Cabinets").hide()
+$("#Countertops").show()
+$("#Sinks").hide()
+$("#Carts").hide()
+})
+$("#btn4").click(function()
+{
+    $("#AllItems").hide()
+$("#Cabinets").hide()
+$("#Countertops").hide()
+$("#Sinks").show()
+$("#Carts").hide()
+})
+$("#btn5").click(function()
+{
+    $("#AllItems").hide()
+$("#Cabinets").hide()
+$("#Countertops").hide()
+$("#Sinks").hide()
+$("#Carts").show()
+})
+
+ });
+</script>
+ 
+  </body>
+</html>

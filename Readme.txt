@@ -3,7 +3,7 @@ Hosted Link : http://seedersoldiers.aptechgarden.com
 Prototypes:
 link: https://www.figma.com/design/mw6ghSOdZ2IsyJvfOlxG4C/Untitled?node-id=1-2&node-type=frame
 
-Github Link: https://github.com/m-anas-2109d/PlantNest
+Github Link: https://github.com/Seedersoldiers24/Home-Styler/
 
 
 Readme
